@@ -14,11 +14,64 @@
   </head>
   <body>
 
-
-    <div class="container bg-secondary text-white">
-        Simple container
+    
+    <div class="container">
+        <div class="row">
+            <!-- Col -> starting from the xs up to xl -->
+            <!-- 12 columns -->
+            <div class="col bg-danger">I'm single column</div>
+        </div>
     </div>
 
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Automatically adjusting ... so 12/3 = 4 -->
+            <!-- MAX 12 COLUMNS = 12 elements -->
+            <div class="col bg-info">I'm single column</div>
+            <div class="col bg-warning">I'm single column</div>
+            <div class="col bg-info">I'm single column</div>
+            <div class="col bg-warning">I'm single column</div>
+            <div class="col bg-info">I'm single column</div>
+            <div class="col bg-warning">I'm single column</div>
+            <div class="col bg-info">I'm single column</div>
+            <div class="col bg-warning">I'm single column</div>
+            <div class="col bg-info">I'm single column</div>
+            <div class="col bg-warning">I'm single column</div>
+            <div class="col bg-info">I'm single column</div>
+            <div class="col bg-warning">I'm single column</div>
+        </div>
+    </div>
+    <br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6 col-md-3 col-lg-6 col-xl-3 bg-info">I'm single column</div>
+            <div class="col-sm-6 col-md-3 col-lg-6 col-xl-3 bg-warning">I'm single column</div>
+            <div class="col-sm-6 col-md-3 col-lg-6 col-xl-3 bg-info">I'm single column</div>
+            <div class="col-sm-6 col-md-3 col-lg-6 col-xl-3 bg-warning">I'm single column</div>
+        </div>
+    </div>
+    <br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-7 col-md-10 col-lg-3 col-xl-1 bg-info">I'm single column</div>
+            <div class="col-sm-5 col-md-2 col-lg-9 col-xl-11 bg-warning">I'm single column</div>
+            <div class="col-sm-8 col-md-11 col-lg-7 col-xl-9 bg-info">I'm single column</div>
+            <div class="col-sm-4 col-md-1 col-lg-5 col-xl-3 bg-warning">I'm single column</div>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3 col-md-5 bg-primary">I'm three</div>
+            <div class="col-sm-6 col-md-2 bg-warning">I'm six</div>
+            <div class="col-sm-3 col-md-5 bg-primary">I'm three
+                <div class="row">
+                    <div class="col-6 bg-danger">I'm half</div>
+                    <div class="col-6 bg-info">I'm half</div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
