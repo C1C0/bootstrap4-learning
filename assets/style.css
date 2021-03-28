@@ -1,6 +1,10 @@
 body{
     background: aqua;
 }
+
+.col{
+    min-height: 200px;
+}
 @media screen and (max-width: 1200px){
     body{
         background: yellow;
