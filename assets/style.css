@@ -1,10 +1,12 @@
 body{
-    background: aqua;
+    /* background: aqua; */
 }
 
-.col{
-    min-height: 200px;
+.row{
+    min-height: 100vh;
 }
+
+/*
 @media screen and (max-width: 1200px){
     body{
         background: yellow;
@@ -28,5 +30,6 @@ body{
         background: red;
     }
 }
+*/
 
 
