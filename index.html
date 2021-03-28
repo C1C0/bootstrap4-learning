@@ -10,69 +10,64 @@
       integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="stylesheet" href="/assets/style.css" />
   </head>
   <body>
-
-    
+    <!-- Start of body -->
+    <!-- In REM values -->
+    <!-- m/p-X -->
+    <h1>Margin</h1>
     <div class="container">
-        <div class="row">
-            <!-- Col -> starting from the xs up to xl -->
-            <!-- 12 columns -->
-            <div class="col bg-danger">I'm single column</div>
-        </div>
+      <div class="bg-danger m-5">I'm simple div</div>
+      <div class="bg-info m-4">I'm simple div</div>
+      <div class="bg-warning m-3">I'm simple div</div>
+      <div class="bg-success m-2">I'm simple div</div>
+      <div class="bg-primary m-1">I'm simple div</div>
+      <div class="bg-secondary m-0">I'm simple div</div>
     </div>
+    <br />
 
-    <div class="container-fluid">
-        <div class="row">
-            <!-- Automatically adjusting ... so 12/3 = 4 -->
-            <!-- MAX 12 COLUMNS = 12 elements -->
-            <div class="col bg-info">I'm single column</div>
-            <div class="col bg-warning">I'm single column</div>
-            <div class="col bg-info">I'm single column</div>
-            <div class="col bg-warning">I'm single column</div>
-            <div class="col bg-info">I'm single column</div>
-            <div class="col bg-warning">I'm single column</div>
-            <div class="col bg-info">I'm single column</div>
-            <div class="col bg-warning">I'm single column</div>
-            <div class="col bg-info">I'm single column</div>
-            <div class="col bg-warning">I'm single column</div>
-            <div class="col bg-info">I'm single column</div>
-            <div class="col bg-warning">I'm single column</div>
-        </div>
-    </div>
-    <br>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-6 col-md-3 col-lg-6 col-xl-3 bg-info">I'm single column</div>
-            <div class="col-sm-6 col-md-3 col-lg-6 col-xl-3 bg-warning">I'm single column</div>
-            <div class="col-sm-6 col-md-3 col-lg-6 col-xl-3 bg-info">I'm single column</div>
-            <div class="col-sm-6 col-md-3 col-lg-6 col-xl-3 bg-warning">I'm single column</div>
-        </div>
-    </div>
-    <br>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-7 col-md-10 col-lg-3 col-xl-1 bg-info">I'm single column</div>
-            <div class="col-sm-5 col-md-2 col-lg-9 col-xl-11 bg-warning">I'm single column</div>
-            <div class="col-sm-8 col-md-11 col-lg-7 col-xl-9 bg-info">I'm single column</div>
-            <div class="col-sm-4 col-md-1 col-lg-5 col-xl-3 bg-warning">I'm single column</div>
-        </div>
-    </div>
-    <br>
+    <h1>Padding</h1>
     <div class="container">
-        <div class="row">
-            <div class="col-sm-3 col-md-5 bg-primary">I'm three</div>
-            <div class="col-sm-6 col-md-2 bg-warning">I'm six</div>
-            <div class="col-sm-3 col-md-5 bg-primary">I'm three
-                <div class="row">
-                    <div class="col-6 bg-danger">I'm half</div>
-                    <div class="col-6 bg-info">I'm half</div>
-                </div>
-            </div>
-        </div>
+      <div class="bg-danger mb-1 p-5">I'm simple div</div>
+      <div class="bg-info mb-1 p-4">I'm simple div</div>
+      <div class="bg-warning mb-1 p-3">I'm simple div</div>
+      <div class="bg-success mb-1 p-2">I'm simple div</div>
+      <div class="bg-primary mb-1 p-1">I'm simple div</div>
+      <div class="bg-secondary mb-1 p-0">I'm simple div</div>
+    </div>
+    <br />
+    <h1>Margin - sides</h1>
+    <div class="container">
+      <div class="bg-danger ml-5">I'm simple div</div>
+      <div class="bg-info mt-5">I'm simple div</div>
+      <div class="bg-warning mr-5">I'm simple div</div>
+      <div class="bg-success ml-5">I'm simple div</div>
+      <div class="bg-primary mx-5">I'm simple div</div>
+      <div class="bg-secondary my-5">I'm simple div</div>
     </div>
 
+    <h1>Padding - sides</h1>
+    <div class="container">
+      <div class="bg-danger pl-5">I'm simple div</div>
+      <div class="bg-info pt-5">I'm simple div</div>
+      <div class="bg-warning pr-5">I'm simple div</div>
+      <div class="bg-success pl-5">I'm simple div</div>
+      <div class="bg-primary px-5">I'm simple div</div>
+      <div class="bg-secondary py-5">I'm simple div</div>
+    </div>
+    <br>
+    <h1>Width</h1>
+    <div class="container">
+        <div class="bg-danger w-25 mx-auto">I'm simple div</div>
+        <div class="bg-info w-50 mx-auto">I'm simple div</div>
+        <div class="bg-warning w-75 mx-auto">I'm simple div</div>
+        <div class="bg-success w-100 mx-auto">I'm simple div</div>
+        <div class="bg-primary ">I'm simple div</div>
+        <div class="bg-secondary ">I'm simple div</div>
+      </div>
+
+    <!-- Scripts -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
